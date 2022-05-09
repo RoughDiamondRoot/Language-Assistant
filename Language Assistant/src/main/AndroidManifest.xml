@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quicksotfware.languageassistant">
+
+    <uses-permission android:name="android.permission.CAMERA">
+
+    </uses-permission>
+
+    <uses-permission android:name="android.permission.FLASHLIGHT">
+
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera">
+
+    </uses-feature>
+
+    <uses-feature android:name="android.hardware.camera.flash">
+
+    </uses-feature>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_image"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_image"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.quicksotfware.languageassistant.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
